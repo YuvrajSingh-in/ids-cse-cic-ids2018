@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-04-21T20:43:34Z",
+  "python_version": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "random_state": 42,
+  "class_weight": "balanced",
+  "n_samples_total": 3129824,
+  "n_features": 78,
+  "n_classes": 6,
+  "class_names": [
+    "Benign",
+    "Bot",
+    "DoS attacks-GoldenEye",
+    "DoS attacks-Slowloris",
+    "FTP-BruteForce",
+    "SSH-Bruteforce"
+  ],
+  "library_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.8",
+    "torch": "2.11.0+cpu"
+  },
+  "extras": {
+    "train_size": 2503859,
+    "test_size": 625965,
+    "test_fraction": 0.2
+  }
+}

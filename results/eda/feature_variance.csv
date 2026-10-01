@@ -1,0 +1,79 @@
+feature,variance
+Fwd IAT Min,1.1274502e+18
+Flow IAT Min,1.1274484e+18
+Flow IAT Max,9.804399e+17
+Fwd IAT Max,9.8043974e+17
+Idle Max,9.70227e+17
+Flow Duration,6.651012e+17
+Fwd IAT Tot,6.650999e+17
+Flow IAT Std,2.2518546e+17
+Fwd IAT Std,2.2518541e+17
+Idle Mean,1.2279623e+17
+Idle Std,6.111106e+16
+Fwd IAT Mean,4.661954e+16
+Flow IAT Mean,4.6608302e+16
+Bwd IAT Tot,642897200000000.0
+Idle Min,291323470000000.0
+Bwd IAT Max,98890480000000.0
+Bwd IAT Mean,21660158000000.0
+Bwd IAT Min,16119511000000.0
+Flow Byts/s,15529114000000.0
+Bwd IAT Std,10501017000000.0
+Active Max,3233732600000.0
+Active Mean,1883017700000.0
+Active Min,1412137600000.0
+Active Std,598068600000.0
+Flow Pkts/s,146016120000.0
+Fwd Pkts/s,63031644000.0
+Subflow Bwd Byts,43731096000.0
+TotLen Bwd Pkts,43723080000.0
+Bwd Pkts/s,27672824000.0
+Pkt Len Var,13463952000.0
+Init Bwd Win Byts,406388900.0
+Subflow Fwd Byts,305387100.0
+TotLen Fwd Pkts,305387100.0
+Dst Port,240714990.0
+Init Fwd Win Byts,152140830.0
+Bwd Header Len,8315368.5
+Fwd Header Len,6136396.0
+Pkt Len Max,254379.83
+Bwd Pkt Len Max,250839.8
+Fwd Pkt Len Max,76338.06
+Bwd Pkt Len Std,38666.785
+Bwd Seg Size Avg,29208.791
+Bwd Pkt Len Mean,29208.791
+Pkt Len Std,24012.072
+Tot Bwd Pkts,20913.045
+Subflow Bwd Pkts,20913.045
+Pkt Size Avg,12857.514
+Pkt Len Mean,12122.227
+Fwd Pkt Len Std,8623.636
+Subflow Fwd Pkts,3482.1392
+Tot Fwd Pkts,3482.1392
+Fwd Seg Size Avg,3228.9578
+Fwd Pkt Len Mean,3228.9578
+Bwd Pkt Len Min,2453.2268
+Fwd Pkt Len Min,479.8116
+Pkt Len Min,427.7469
+Fwd Act Data Pkts,93.37273
+Fwd Seg Size Min,77.14926
+Protocol,23.580746
+Down/Up Ratio,0.52961755
+PSH Flag Cnt,0.25200966
+ACK Flag Cnt,0.20779584
+RST Flag Cnt,0.107400045
+ECE Flag Cnt,0.107399456
+URG Flag Cnt,0.062645316
+SYN Flag Cnt,0.032634817
+Fwd PSH Flags,0.032634817
+FIN Flag Cnt,0.0040003103
+Bwd URG Flags,0.0
+Bwd PSH Flags,0.0
+Fwd URG Flags,0.0
+Bwd Blk Rate Avg,0.0
+Bwd Byts/b Avg,0.0
+Bwd Pkts/b Avg,0.0
+Fwd Pkts/b Avg,0.0
+Fwd Byts/b Avg,0.0
+CWE Flag Count,0.0
+Fwd Blk Rate Avg,0.0

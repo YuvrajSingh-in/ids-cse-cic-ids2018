@@ -1,0 +1,7 @@
+class_index,class_name,count,percentage,imbalance_ratio
+0,Benign,1928154,77.007,1.0
+1,Bot,228953,9.144,8.42
+4,FTP-BruteForce,154683,6.178,12.47
+5,SSH-Bruteforce,150071,5.994,12.85
+2,DoS attacks-GoldenEye,33206,1.326,58.07
+3,DoS attacks-Slowloris,8792,0.351,219.31
