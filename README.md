@@ -21,6 +21,35 @@ one deep-learning model on the CSE-CIC-IDS2018 network-flow dataset.
 
 ---
 
+## Results
+
+Held-out test set: 625,965 flows (80/20 stratified split, `random_state=42`), 6 classes with imbalance up to 219:1.
+Source: `results/feature_selection_results.csv`.
+
+| Model | F1-macro (78 features) | F1-macro (MI top-20) | Train time, 78 → 20 features | Throughput (flows/s, 78 features) |
+|---|---|---|---|---|
+| **Random Forest** | **0.9999** | **0.9999** | 584 s → 441 s (−24%) | 138,925 |
+| MLP | 0.9989 | 0.9941 | 981 s → 1,551 s | 23,475 |
+| 1D-CNN (PyTorch) | 0.9919 | 0.9695 | 3,162 s → 671 s | 14,397 |
+| Linear SVM | 0.9680 | 0.8666 | 9,788 s → 3,172 s | 445,604 |
+
+**Key findings**
+- Random Forest is both the most accurate and one of the fastest models; the 20 mutual-information features
+  match the full 78-feature set at about a quarter less training time.
+- Non-linear models dominate: Linear SVM loses ~10 F1 points when features are reduced.
+- The custom 1D-CNN trains 4.7× faster on 20 features but gives up 2 F1 points, so it is not worth its cost here.
+
+### Limitations
+
+Near-perfect scores are common on CSE-CIC-IDS2018 and should be read with care:
+- Flows are split randomly within the same capture days, so train and test share hosts, sessions and
+  near-duplicate flows. A **day-held-out or time-based split** would be a much harder and more realistic test.
+- Only 6 classes from 3 capture days are used; several attack families in the full dataset are excluded.
+- The dataset has known labelling and flow-extraction artefacts, so high scores partly reflect how separable
+  these attacks are in this capture rather than how a model would perform on live traffic.
+
+---
+
 ## Quick start
 
 ```bash
